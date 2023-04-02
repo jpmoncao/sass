@@ -1,0 +1,6 @@
+@each $color,
+$value in $theme-colors {
+    .title-#{$color} {
+        color: $value;
+    }
+}

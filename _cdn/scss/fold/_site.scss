@@ -1,0 +1,16 @@
+.main_site {
+    width: 100%;
+    background-color: #fff;
+
+    .main_site_content {
+        width: $width-content;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 1.2em;
+        color: #666;
+    }
+}

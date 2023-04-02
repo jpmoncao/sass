@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+$font-primary: normal normal 1em 'Roboto', sans-serif;
+
+* {
+    font: $font-primary;
+}
+
+$width-content: 1080px;
+
+$color-primary: #3e8edb;
+$color-green: #36ba9b;
+$color-yellow: #f5b946;
+$color-blue: #39aed9;
+$color-red: #d94352;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(("green": $color-green,
+            "yellow": $color-yellow,
+            "blue": $color-blue,
+            "red": $color-red,
+        ), $theme-colors);
+
+$button-hover-type: 'darken';
+$button-hover-amount: 30%;

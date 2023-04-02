@@ -1,0 +1,16 @@
+.main_footer {
+    width: 100%;
+    background-color: $color-primary;
+
+    .main_footer_content {
+        width: $width-content;
+        margin: 0 auto;
+        padding: 10px;
+
+        p {
+            font-family: $font-primary;
+            text-align: center;
+            color: #fff;
+        }
+    }
+}
